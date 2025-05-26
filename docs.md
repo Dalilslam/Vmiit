@@ -51,8 +51,8 @@ const buttons = [
   { text: "Олимпиады", route: "/olympiads" },
   { text: "Семинары", route: "/seminars" }
 ];
-
-2. ScienceContentComponent.vue
+```
+### 2. ScienceContentComponent.vue
 Назначение: Отображает контент выбранного раздела.
 
 Особенности:
@@ -63,14 +63,14 @@ const buttons = [
 Обработка ошибок загрузки
 
 API:
-const API_BASE_URL = 'http://176.126.162.10:8000';
+```const API_BASE_URL = 'http://176.126.162.10:8000';
 // Эндпоинт: /scienceevent/{section}/
 // Параметры: ?id={event_id}&format=api
 Методы:
 fetchDataFromBackend() - загрузка данных
 formatElements() - преобразование элементов для галереи
-
-3. ScienceScrollBarComponent.vue
+```
+### 3. ScienceScrollBarComponent.vue
 Назначение: Галерея для просмотра прикрепленных материалов.
 
 Функционал:
@@ -83,26 +83,26 @@ formatElements() - преобразование элементов для гал
 Анимации перехода
 
 Пропсы:
-props: {
+```props: {
   elements: Array,  // Массив элементов {element_url, type}
   id: [String, Number]  // Идентификатор карточки
 }
-
-4. ScienceHeaderComponent.vue
+```
+### 4. ScienceHeaderComponent.vue
 Назначение: Заголовок блока с кнопкой возврата.
 
 Маршрутизация
 Роут /science подключает весь модуль:
-// router/index.js
+```// router/index.js
 {
   path: '/science',
   name: 'science',
   component: ScienceLayer
 }
-
+```
 Интеграция
 Модуль подключен в корневом компоненте App.vue:
-
+```
 <template>
   <div id="app">
     <!-- ... -->
@@ -110,10 +110,10 @@ props: {
     <ScienceLayer /> <!-- Научный блок -->
   </div>
 </template>
-
-Взаимодействие с бэкендом
-Формат ответа API
-
+```
+## Взаимодействие с бэкендом
+### Формат ответа API
+```
 {
   "title": "Название мероприятия",
   "description": "Описание",
@@ -122,8 +122,8 @@ props: {
     {"url": "/media/document.pdf", "type": "file"}
   ]
 }
-
-Особенности реализации
+```
+##Особенности реализации
 Анимации:
 
 Плавные переходы между изображениями
