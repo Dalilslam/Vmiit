@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Международный конкурс по программированию",
+      "description": "Наши студенты заняли первое место в международном конкурсе...",
+      "elements": [
+        "src/assets/mock-elements/image_1.png",
+        "src/assets/mock-elements/image_2.png",
+        "src/assets/mock-elements/image_3.png",
+        "src/assets/mock-elements/doc_1.pdf"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Конкурс научных проектов",
+      "description": "Ежегодный конкурс научных проектов с участием ведущих вузов...",
+      "elements": [
+        "src/assets/mock-elements/image_1.png",
+        "src/assets/mock-elements/image_2.png",
+        "src/assets/mock-elements/image_3.png",
+        "src/assets/mock-elements/doc_1.pdf"
+      ]
+    }
+  ]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "3DiVi",
+    "logo": "src/assets/img/3DiVi_logo.svg",
+    "website": "https://3divi.ru/",
+    "projects": [
+      { "id": 11, "name": "Проект Divi", "link": "https://example.com/divi-11" },
+      { "id": 12, "name": "Проект Divi", "link": "https://example.com/divi-12" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Районная больница",
+    "logo": "src/assets/img/hospital_logo.png",
+    "website": "https://crbsosn-74.ru/",
+    "projects": [
+      { "id": 21, "name": "Проект больница", "link": "https://example.com/hospital-21" },
+      { "id": 22, "name": "Проект больница", "link": "https://example.com/hospital-22" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Интерсвязь",
+    "logo": "src/assets/img/intersvyaz_logo.svg",
+    "website": "https://www.is74.ru/",
+    "projects": [
+      { "id": 31, "name": "Проект интерсвязь", "link": "https://example.com/intersvyaz-31" },
+      { "id": 32, "name": "Проект интерсвязь", "link": "https://example.com/intersvyaz-32" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "skb kontur",
+    "logo": "src/assets/img/skbKontur_logo.svg",
+    "website": "https://kontur.ru/",
+    "projects": [
+      { "id": 41, "name": "Проект контур", "link": "https://example.com/kontur-41" },
+      { "id": 42, "name": "Проект контур", "link": "https://example.com/kontur-42" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Образовательный центр",
+    "logo": "src/assets/img/edu_center_logo.svg",
+    "website": "https://oc-5.educhel.ru/",
+    "projects": [
+      { "id": 51, "name": "Проект школы", "link": "https://example.com/school-51" },
+      { "id": 52, "name": "Проект школы", "link": "https://example.com/school-52" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Робо 74",
+    "logo": "src/assets/img/robo74_logo_dark.png",
+    "website": "https://robo74.ru/kvantorium/",
+    "projects": [
+      { "id": 61, "name": "Проект робо", "link": "https://example.com/robo-61" },
+      { "id": 62, "name": "Проект робо", "link": "https://example.com/robo-62" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Принтпласт",
+    "logo": "src/assets/img/printplast_2_logo.png",
+    "website": "https://printplast74.ru/",
+    "projects": [
+      { "id": 71, "name": "Проект принтпласт", "link": "https://example.com/printplast-71" },
+      { "id": 72, "name": "Проект принтпласт", "link": "https://example.com/printplast-72" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Альфа интек",
+    "logo": "src/assets/img/alpha_intech_logo.png",
+    "website": "https://www.alpha-intech.com/",
+    "projects": [
+      { "id": 81, "name": "Проект альфаинтек", "link": "https://example.com/alphaintech-81" },
+      { "id": 82, "name": "Проект альфаинтек", "link": "https://example.com/alphaintech-82" }
+    ]
+  }
+]

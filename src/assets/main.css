@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100%;
+    background-color: #fff;  /* Фон всей страницы */
+    font-family: 'Manrope', bold, sans-serif;  /* шрифт */
+
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: flex-start;  /* Выравнивание сверху */
+
+}

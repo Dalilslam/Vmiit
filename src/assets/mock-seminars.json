@@ -1,0 +1,21 @@
+[
+    {
+      "id": 5,
+      "title": "Научный семинар по искусственному интеллекту",
+      "description": "Еженедельный научный семинар с приглашенными экспертами...",
+      "elements": [
+        "src/assets/events/seminar_ai.jpg",
+        "src/assets/events/seminar_materials.zip"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Семинар по квантовым вычислениям",
+      "description": "Цикл семинаров посвященных современным квантовым технологиям...",
+      "elements": [
+        "src/assets/events/quantum_seminar.jpg",
+        "src/assets/events/presentation.pdf",
+        "src/assets/events/lecture_notes.docx"
+      ]
+    }
+  ]

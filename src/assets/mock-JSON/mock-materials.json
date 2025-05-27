@@ -1,0 +1,22 @@
+[
+	{
+	  "title": "Математический анализ",
+	  "files": [
+		{ "name": "Примеры решения лаб.zip", "url": "https://example.com/file1" },
+		{ "name": "Что-то там.pdf", "url": "https://example.com/file2" }
+	  ]
+	},
+	{
+	  "title": "Ведение IT-проектов",
+	  "files": [
+		{ "name": "Методичка.pdf", "url": "https://example.com/file3" }
+	  ]
+	},
+	{
+		"title": "Ведение IT-проектов",
+		"files": [
+		  { "name": "Методичка.pdf", "url": "https://example.com/file3" }
+		]
+	  }
+  ]
+  

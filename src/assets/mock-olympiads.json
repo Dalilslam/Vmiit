@@ -1,0 +1,23 @@
+[
+    {
+      "id": 3,
+      "title": "Всероссийская олимпиада по математике",
+      "description": "Наши студенты показали выдающиеся результаты на всероссийской олимпиаде...",
+      "elements": [
+        "src/assets/mock-elements/image_2.png",
+        "src/assets/mock-elements/image_3.png",
+        "src/assets/mock-elements/doc_1.pdf"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Олимпиада по физике",
+      "description": "Участие в международной олимпиаде по физике...",
+      "elements": [
+       "src/assets/mock-elements/image_3.png",
+        "src/assets/mock-elements/image_2.png",
+        "src/assets/mock-elements/image_1.png",
+        "src/assets/mock-elements/doc_1.pdf"
+      ]
+    }
+  ]
