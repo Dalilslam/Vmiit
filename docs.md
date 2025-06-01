@@ -9,22 +9,37 @@
 ### Директории и ключевые файлы
 
 src/
+
 ├── assets/
+
 │ ├── mock-json/ # Моковые данные для тестирования
+
 │ └── images/ # Статические изображения
+
 │
 ├── components/
+
 │ └── ScienceLayer/ # Компоненты научного блока
+
 │ ├── ScienceButtonComponent.vue # Навигационные кнопки
+
 │ ├── ScienceContentComponent.vue # Контент разделов
+
 │ ├── ScienceHeaderComponent.vue # Заголовок блока
+
 │ └── ScienceScrollBarComponent.vue # Галерея/презентация материалов
+
 │
 ├── layers/
+
 │ └── ScienceLayer.vue # Основной слой (композит всех компонентов)
+
 │
+
 ├── router/
+
 │ └── index.js # Роутинг (маршрут '/science')
+
 │
 └── svgs/ # Иконки в SVG формате
 
