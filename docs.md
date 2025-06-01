@@ -69,6 +69,55 @@ const buttons = [
   { text: "Семинары", route: "/seminars" }
 ];
 ```
+### Базовые классы
+```css
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.25rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  gap: 0.25rem;
+  backdrop-filter: blur(10px);
+}
+```
+### Стили кнопок
+```
+.custom-button {
+  width: 25%;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2.5rem;
+  color: white;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-align: center;
+  background-color: #7D61F2;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+```
+### Псевдоэлементы и состояния
+```/* Анимация при наведении */
+.custom-button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(to top, #7D61F2, #B949CB);
+  transition: height 0.08s ease;
+  z-index: -1;
+}
+
+/* Активная кнопка */
+.active-button {
+  background: linear-gradient(to top, #7D61F2, #B949CB);
+  box-shadow: 0 4px 10px rgba(125, 97, 242, 0.3);
+}
+```
 ### 2. ScienceContentComponent.vue
 Назначение: Отображает контент выбранного раздела.
 
@@ -87,6 +136,25 @@ API:
 fetchDataFromBackend() - загрузка данных
 formatElements() - преобразование элементов для галереи
 ```
+### Структурные стили
+```
+.news-border {
+  border: 2px solid rgba(125, 97, 242, 1);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.news-title-highlight {
+  color: #7D61F2;
+}
+```
 ### 3. ScienceScrollBarComponent.vue
 Назначение: Галерея для просмотра прикрепленных материалов.
 
@@ -103,6 +171,54 @@ formatElements() - преобразование элементов для гал
 ```props: {
   elements: Array,  // Массив элементов {element_url, type}
   id: [String, Number]  // Идентификатор карточки
+}
+```
+
+### Контейнер и навигация
+```
+.gallery-container {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: rgba(125, 97, 242, 0.3);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 200px;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  z-index: 10;
+  transition: opacity 0.3s;
+}
+```
+### Элементы галереи
+```
+.gallery-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border: 2px solid rgba(125, 97, 242, 1);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
 }
 ```
 ### 4. ScienceHeaderComponent.vue
@@ -127,6 +243,20 @@ formatElements() - преобразование элементов для гал
     <ScienceLayer /> <!-- Научный блок -->
   </div>
 </template>
+```
+### Карусель
+```
+.slide-next-enter-active,
+.slide-next-leave-active,
+.slide-prev-enter-active,
+.slide-prev-leave-active {
+  transition: all 0.5s ease;
+}
+
+.slide-next-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
 ```
 ## Взаимодействие с бэкендом
 ### Формат ответа API
